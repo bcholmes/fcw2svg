@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{35E3A746-478E-44EF-A191-D2453E9DE551}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Fcw2Svg</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>C:\Program Files (x86)\ProFantasy\CC3</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FCW2SVG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Documents and Settings\holmesbc\xp6pf\XPDEV.cc2</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>C:\Documents and Settings\holmesbc\xp6pf\XPDEV.cc2\fcw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FCW2SVG_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="fcw2svg-0.2\Arc.cpp" />
+    <ClCompile Include="fcw2svg-0.2\BasePath.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Circle.cpp" />
+    <ClCompile Include="fcw2svg-0.2\CommonHeader.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Drawing.cpp" />
+    <ClCompile Include="fcw2svg-0.2\EllipticalArc.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Fcw.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Group.cpp" />
+    <ClCompile Include="fcw2svg-0.2\InfoBlock.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Label.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Line.cpp" />
+    <ClCompile Include="fcw2svg-0.2\MultiPoly.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Path.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Point.cpp" />
+    <ClCompile Include="fcw2svg-0.2\PointShape.cpp" />
+    <ClCompile Include="fcw2svg-0.2\Shape.cpp" />
+    <ClCompile Include="fcw2svg-0.2\ShapeFactory.cpp" />
+    <ClCompile Include="fcw2svg-0.2\StringSanitizer.cpp" />
+    <ClCompile Include="fcw2svg-0.2\SvgDocument.cpp" />
+    <ClCompile Include="fcw2svg-0.2\SvgElement.cpp" />
+    <ClCompile Include="fcw2svg-0.2\SymbolDefinition.cpp" />
+    <ClCompile Include="fcw2svg-0.2\SymbolReference.cpp" />
+    <ClCompile Include="fcw2svg-0.2\tinystr.cpp" />
+    <ClCompile Include="fcw2svg-0.2\tinyxml.cpp" />
+    <ClCompile Include="fcw2svg-0.2\tinyxmlerror.cpp" />
+    <ClCompile Include="fcw2svg-0.2\tinyxmlparser.cpp" />
+    <ClCompile Include="fcw2svg-0.2\UnknownShape.cpp" />
+    <ClCompile Include="fcw2svgxp.cpp" />
+    <ClCompile Include="SVGAdapter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fcw2svg-0.2\Arc.h" />
+    <ClInclude Include="fcw2svg-0.2\BasePath.h" />
+    <ClInclude Include="fcw2svg-0.2\CadApi.h" />
+    <ClInclude Include="fcw2svg-0.2\Circle.h" />
+    <ClInclude Include="fcw2svg-0.2\CommonHeader.h" />
+    <ClInclude Include="fcw2svg-0.2\CoordinateSystem.h" />
+    <ClInclude Include="fcw2svg-0.2\Drawing.h" />
+    <ClInclude Include="fcw2svg-0.2\EllipticalArc.h" />
+    <ClInclude Include="fcw2svg-0.2\estruct.h" />
+    <ClInclude Include="fcw2svg-0.2\Fcw.h" />
+    <ClInclude Include="fcw2svg-0.2\geometry.h" />
+    <ClInclude Include="fcw2svg-0.2\Group.h" />
+    <ClInclude Include="fcw2svg-0.2\ibmgr.h" />
+    <ClInclude Include="fcw2svg-0.2\InfoBlock.h" />
+    <ClInclude Include="fcw2svg-0.2\InfoBlockHeader.h" />
+    <ClInclude Include="fcw2svg-0.2\Label.h" />
+    <ClInclude Include="fcw2svg-0.2\Line.h" />
+    <ClInclude Include="fcw2svg-0.2\MultiPoly.h" />
+    <ClInclude Include="fcw2svg-0.2\NumberUtil.h" />
+    <ClInclude Include="fcw2svg-0.2\Paint.h" />
+    <ClInclude Include="fcw2svg-0.2\Path.h" />
+    <ClInclude Include="fcw2svg-0.2\Point.h" />
+    <ClInclude Include="fcw2svg-0.2\Point3d.h" />
+    <ClInclude Include="fcw2svg-0.2\PointShape.h" />
+    <ClInclude Include="fcw2svg-0.2\Shape.h" />
+    <ClInclude Include="fcw2svg-0.2\ShapeFactory.h" />
+    <ClInclude Include="fcw2svg-0.2\StringSanitizer.h" />
+    <ClInclude Include="fcw2svg-0.2\SvgDocument.h" />
+    <ClInclude Include="fcw2svg-0.2\SvgElement.h" />
+    <ClInclude Include="fcw2svg-0.2\SymbolDefinition.h" />
+    <ClInclude Include="fcw2svg-0.2\SymbolReference.h" />
+    <ClInclude Include="fcw2svg-0.2\TableMatrix.h" />
+    <ClInclude Include="fcw2svg-0.2\tinystr.h" />
+    <ClInclude Include="fcw2svg-0.2\tinyxml.h" />
+    <ClInclude Include="fcw2svg-0.2\UnknownShape.h" />
+    <ClInclude Include="fcw2svgxp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fcw2svg-0.2\treedef.1" />
+    <None Include="fcw2svg-0.2\treedef.2" />
+    <None Include="fcw2svg-0.2\treedef.3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

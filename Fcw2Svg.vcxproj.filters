@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BasicConverter">
+      <UniqueIdentifier>{9add1311-5962-4af6-a34b-c9e8874d3042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fcw2svgxp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Arc.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\BasePath.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Circle.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\CommonHeader.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Drawing.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\EllipticalArc.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Fcw.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Group.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\InfoBlock.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Label.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Line.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\MultiPoly.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Path.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Point.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\PointShape.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\Shape.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\ShapeFactory.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\StringSanitizer.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\SvgDocument.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\SvgElement.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\SymbolDefinition.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\SymbolReference.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\UnknownShape.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\tinystr.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\tinyxml.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\tinyxmlerror.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+    <ClCompile Include="fcw2svg-0.2\tinyxmlparser.cpp">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fcw2svgxp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\UnknownShape.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Arc.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\BasePath.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\CadApi.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Circle.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\CommonHeader.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\CoordinateSystem.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Drawing.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\EllipticalArc.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\estruct.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Fcw.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\geometry.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Group.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\ibmgr.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\InfoBlock.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\InfoBlockHeader.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Label.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Line.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\MultiPoly.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\NumberUtil.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Paint.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Path.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Point3d.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Point.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\PointShape.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\Shape.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\ShapeFactory.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\StringSanitizer.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\SvgDocument.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\SvgElement.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\SymbolDefinition.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\SymbolReference.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\TableMatrix.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\tinystr.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+    <ClInclude Include="fcw2svg-0.2\tinyxml.h">
+      <Filter>Source Files\BasicConverter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fcw2svg-0.2\treedef.1">
+      <Filter>Source Files\BasicConverter</Filter>
+    </None>
+    <None Include="fcw2svg-0.2\treedef.2">
+      <Filter>Source Files\BasicConverter</Filter>
+    </None>
+    <None Include="fcw2svg-0.2\treedef.3">
+      <Filter>Source Files\BasicConverter</Filter>
+    </None>
+  </ItemGroup>
+</Project>
