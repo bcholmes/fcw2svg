@@ -3,7 +3,7 @@ fcw2svg
 
 A utility to convert CC3's FCW files to SVG.
 
-Much of this code is a port of some Java code that does much the same thing. It's also
+Much of this code is a port of [some Java code](https://bitbucket.org/bcholmes/cartographersvg) that does much the same thing. It's also
 inspired from some code written by Ross Alexander, but it's been pretty significantly
 re-written.
 
